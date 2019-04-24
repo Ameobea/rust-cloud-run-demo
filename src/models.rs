@@ -3,7 +3,7 @@ use chrono::NaiveDateTime;
 use crate::schema::pageviews;
 
 /// This represents a page view pulled from the database, including the auto-generated fields
-#[derive(Serialize, Deserialize)]
+#[derive(Serialize, Deserialize, Queryable)]
 pub struct PageView {
     pub id: i64,
     pub view_time: NaiveDateTime,
