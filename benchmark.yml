@@ -1,0 +1,10 @@
+---
+threads: 4
+base: 'https://rocket-app-mi7imxlw6a-uc.a.run.app' # Use your deployment URL here
+iterations: 50
+rampup: 2
+
+plan:
+  - name: Retrieve Page Views
+    request:
+      url: /page_view
