@@ -1,0 +1,2 @@
+[global.databases.rocket_app]
+url = "mysql://rocket:password@example.com/rocket_app"
